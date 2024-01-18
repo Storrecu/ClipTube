@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import '../styles/layout/SearchBar.scss';
 
 const SearchBar = ({ onTermSubmit }) => {
   //states

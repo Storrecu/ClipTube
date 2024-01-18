@@ -1,7 +1,7 @@
 import { useState } from 'react';
-import SearchBar from './SearchBar';
 import youtube from '../services/youtube';
-
+import SearchBar from './SearchBar';
+import VideoList from './VideoList';
 import '../styles/App.scss';
 
 const App = () => {
@@ -23,7 +23,7 @@ const App = () => {
       <div className="ui container">
         <h1>Welcome to ClipTube</h1>
         <SearchBar onTermSubmit={onTermSubmit} />
-        {videos.length} videos found.
+        <VideoList videos={videos} />
       </div>
     </>
   );
