@@ -13,7 +13,7 @@ const SearchBar = ({ onTermSubmit }) => {
   const onSearchButton = () => {
     console.log('has hecho click en el botón de buscar');
     onTermSubmit(term);
-    setTerm('');
+    // setTerm('');
   };
 
   return (
