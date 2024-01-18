@@ -12,6 +12,8 @@ Conceptos nuevos que estoy practicando:
 3. He practicado convirtiendo componente sde clase en componentes funcinales. 
 4. Este proyecto lo he estilado usando CSS semántico de las siguientes páginas:  https://semantic-ui.com/ y https://cdnjs.com/libraries/semantic-ui
 
+Es posible que este proyecto, resulte útil a padres que ponen YouTube a sus hijos pero temen que se metan dónde no deben. Con esta web tan simple, sólo podrás buscar vídeos y reproducirlos, nada de suscribirse a ningún canal, poner comentarios... o cualquier imprevisto que pueda surgir de la navegación de los más pequeños de la casa.
+
 ## Diagramas/Esquema de la ClipTube
 
 ![vista previa del proyecto](./src/images/overview.png)
