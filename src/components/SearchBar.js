@@ -14,7 +14,6 @@ const SearchBar = ({ onTermSubmit }) => {
     console.log('has hecho click en el botón de buscar');
     onTermSubmit(term);
     setTerm('');
-    // onSubmit o onClick(term); con esta línea accederemos a la respuesta de la API, entiendo que es el botón el que hará la petición con la info del input, por eso lo pongo en la función manejadora del click
   };
 
   return (
