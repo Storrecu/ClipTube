@@ -1,7 +1,7 @@
 
 # ClipTube
 
-Os presento esta réplica de la web de Youtube.  
+Os presento esta sencilla "réplica" de la web de Youtube.  
 Esta réplica ha sido creada con fines meramente didácticos. 
 Para practicar y profundizar en la creación de páginas web mediante el framework de React.  
 
@@ -25,9 +25,9 @@ La web muestra un listado de videos que coinciden con el término buscado y en �
 No está implementado el sistema de autorización y atenticación de usuarios.
 
 ## Visualización
-En cuanto el proyecto esté más desarrollado, haré un deploy del mismo en esta página para que podais ver el funcionamiento de este clon. 
+Puedes visualizar el proyecto a través de este enlace: https://storrecu.github.io/ClipTube
 
-Por ahora, para poder ver el proyecto, recomiento hacer un fork del proyecto: 
+Si quieres trastear el proyecto, te recomiento hacer un fork del mismo: 
 - Ves a al esquina superior derecha y pulsa en "Fork".
 - Selecciona el usuario de GitHub dónde quieres hacer el fork. 
 - Clona el proyecto forkeado en tu ordenador de forma local.
