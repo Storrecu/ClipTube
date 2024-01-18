@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/ClipTube/static/css/main.496cc552.css",
+    "main.css": "/ClipTube/static/css/main.9467d685.css",
     "main.js": "/ClipTube/static/js/main.4eee45eb.js",
     "static/js/787.32e0067b.chunk.js": "/ClipTube/static/js/787.32e0067b.chunk.js",
     "index.html": "/ClipTube/index.html",
-    "main.496cc552.css.map": "/ClipTube/static/css/main.496cc552.css.map",
+    "main.9467d685.css.map": "/ClipTube/static/css/main.9467d685.css.map",
     "main.4eee45eb.js.map": "/ClipTube/static/js/main.4eee45eb.js.map",
     "787.32e0067b.chunk.js.map": "/ClipTube/static/js/787.32e0067b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.496cc552.css",
+    "static/css/main.9467d685.css",
     "static/js/main.4eee45eb.js"
   ]
 }
