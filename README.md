@@ -1,70 +1,40 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# ClipTube
 
-## Available Scripts
+Os presento esta réplica de la web de Youtube.  
+Esta réplica ha sido creada con fines meramente didácticos. 
+Para practicar y profundizar en la creación de páginas web mediante el framework de React.  
 
-In the project directory, you can run:
+Conceptos nuevos que estoy practicando: 
 
-### `npm start`
+1. Hacer fetch a una API con la librería Axios, en lugar del método Fetch. 
+2. He aprendido sobre el uso de useRef. 
+3. He practicado convirtiendo componente sde clase en componentes funcinales. 
+4. Este proyecto lo he estilado usando CSS semántico de las siguientes páginas:  https://semantic-ui.com/ y https://cdnjs.com/libraries/semantic-ui
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Diagramas/Esquema de la ClipTube
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+![vista previa del proyecto](./src/images/overview.png)
+![desglose de componentes de la página](./src/images/diagram-components.png)
 
-### `npm test`
+## Objetivo
+El funcionamiento es sencillo, se hace una petición a la API de Youtube, concretamente a su información pública cuando se busca algún texto en el input que hay en la página.  
+La web muestra un listado de videos que coinciden con el término buscado y en última instancia, implementaré una descripción del vídeo y la ventana de reporudcción del mismo.  
+No está implementado el sistema de autorización y atenticación de usuarios.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Visualización
+En cuanto el proyecto esté más desarrollado, haré un deploy del mismo en esta página para que podais ver el funcionamiento de este clon. 
 
-### `npm run build`
+Por ahora, para poder ver el proyecto, recomiento hacer un fork del proyecto: 
+- Ves a al esquina superior derecha y pulsa en "Fork".
+- Selecciona el usuario de GitHub dónde quieres hacer el fork. 
+- Clona el proyecto forkeado en tu ordenador de forma local.
+- Una vez tengas el proyecto en local, ábrelo con tu editor de código y ejecuta en la terminal: npm start.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Así, podrás ver hasta que punto está desarrollado el proyecto. 
+No te pido que hagas un git clone, porque si realizas algún cambio en el repositorio, puedes trastocar lo que estoy desarrollando ahora mismo, así que te agradezco mucho si haces un frok en su lugar. 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Sugerencias
+Si has hecho el proceso de crearte un fork del repositorio, lo has visualizado localmente y crees que hay algo que podría mejorar o hay cosas que no entiendes, no dudes en escribirme. 
+Aquí tienes todas las vías para contactar conmigo: [![Gmail](https://img.shields.io/badge/-Gmail-c14438?style=flat&logo=Gmail&logoColor=white)](mailto:silviatc1993@gmail.com)
+[![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat&logo=GitHub&logoColor=white)](https://github.com/Storrecu) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/silviatorrecu) 
