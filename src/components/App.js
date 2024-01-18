@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import youtube from '../services/youtube';
 import SearchBar from './SearchBar';
 import VideoList from './VideoList';
@@ -9,6 +9,10 @@ const App = () => {
   const [videos, setVideos] = useState([]);
   const [selectedVideo, setSelectedVideo] = useState(null);
 
+  useEffect(() => {
+    onTermSubmit('sailor moon');
+  }, []);
+
   const onTermSubmit = async (term) => {
     console.log(term);
     const response = await youtube.get('/search', {
@@ -18,6 +22,7 @@ const App = () => {
     });
     console.log(response.data.items);
     setVideos(response.data.items);
+    setSelectedVideo(response.data.items[0]);
   };
 
   const onVideoSelect = (video) => {
