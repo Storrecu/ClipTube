@@ -6,6 +6,7 @@ import '../styles/App.scss';
 
 const App = () => {
   const [videos, setVideos] = useState([]);
+  const [selectedVideo, setSelectedVideo] = useState(null);
 
   const onTermSubmit = async (term) => {
     console.log(term);
@@ -18,12 +19,16 @@ const App = () => {
     setVideos(response.data.items);
   };
 
+  const onVideoSelect = (video) => {
+    console.log('From the App!', video);
+  };
+
   return (
     <>
       <div className="ui container">
         <h1>Welcome to ClipTube</h1>
         <SearchBar onTermSubmit={onTermSubmit} />
-        <VideoList videos={videos} />
+        <VideoList onVideoSelect={onVideoSelect} videos={videos} />
       </div>
     </>
   );
