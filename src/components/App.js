@@ -2,6 +2,7 @@ import { useState } from 'react';
 import youtube from '../services/youtube';
 import SearchBar from './SearchBar';
 import VideoList from './VideoList';
+import VideoDetail from './VideoDetail';
 import '../styles/App.scss';
 
 const App = () => {
@@ -20,7 +21,7 @@ const App = () => {
   };
 
   const onVideoSelect = (video) => {
-    console.log('From the App!', video);
+    setSelectedVideo(video);
   };
 
   return (
@@ -28,6 +29,7 @@ const App = () => {
       <div className="ui container">
         <h1>Welcome to ClipTube</h1>
         <SearchBar onTermSubmit={onTermSubmit} />
+        <VideoDetail video={selectedVideo} />
         <VideoList onVideoSelect={onVideoSelect} videos={videos} />
       </div>
     </>
