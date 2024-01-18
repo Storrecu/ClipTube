@@ -1,3 +1,4 @@
+import 'default-passive-events';
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.scss';
