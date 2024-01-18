@@ -1,0 +1,12 @@
+.ui.container {
+  margin-top: 1rem;
+}
+
+.ui.grid > .row [class*='eleven wide'].column,
+.ui.grid > [class*='eleven wide'].column {
+  width: 100% !important;
+  margin-bottom: 1rem;
+  @media all and (min-width: 768px) {
+    width: 68.75% !important;
+  }
+}
