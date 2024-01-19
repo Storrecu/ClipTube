@@ -3,7 +3,7 @@
 
 Os presento esta sencilla "réplica" de la web de Youtube.  
 Esta réplica ha sido creada con fines meramente didácticos. 
-Para practicar y profundizar en la creación de páginas web mediante el framework de React.  
+Para practicar y profundizar en la creación de páginas web mediante React.  
 
 Conceptos nuevos que estoy practicando: 
 
